@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BigBoysStore</title>
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- Telegram Web App SDK -->
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>🛒 BigBoysStore</h1>
+  </header>
+
+  <main>
+    <div class="product" onclick="addToCart('Gaming PC')">
+      <h2>Gaming PC</h2>
+      <p>High performance RGB build</p>
+    </div>
+
+    <div class="product" onclick="addToCart('RGB Lights')">
+      <h2>RGB Lights</h2>
+      <p>Wall ambient lighting</p>
+    </div>
+
+    <div class="product" onclick="addToCart('Accessories')">
+      <h2>Accessories</h2>
+      <p>Keyboards, mouse, etc.</p>
+    </div>
+  </main>
+
+  <button id="checkoutBtn">Checkout</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
